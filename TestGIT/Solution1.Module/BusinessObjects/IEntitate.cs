@@ -14,7 +14,7 @@ namespace Solution1.Module.BusinessObjects
 {
     [DomainComponent]
     [DefaultClassOptions]
-    //[ImageName("BO_Contact")]
+    ////[ImageName("BO_Contact")]
     //[XafDefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     // Specify more UI options using a declarative approach (http://documentation.devexpress.com/#Xaf/CustomDocument2701).
@@ -23,6 +23,9 @@ namespace Solution1.Module.BusinessObjects
         //[XafDisplayName("My display name"), ToolTip("My hint message")]
         //[ModelDefault("EditMask", "(000)-00"), Index(0), VisibleInListView(false)]
         //[RuleRequiredField(DefaultContexts.Save)]
+
+
+
         string PersistentProperty { get; set; }
         //string CalculatedProperty { get; }
         //int SumMethod(int val1, int val2);
